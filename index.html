@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/b0102e3540.js" crossorigin="anonymous"></script>
+
+    <!-- slick slider -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+</head>
+
+<body>
+  
+    
+    <div class="container">
+      <div class="header">
+        <h2>Formularz Rejestracyjny</h2>
+      </div>
+      <form class="form" id="form">
+        <div class="form-control">
+          <label>Nazwa Użytkownika:</label>
+          <input type="text" name="" id="username" placeholder="Wprowadź nazwe..."
+          autocomplete="off">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>  
+          <small>Error Msg</small>
+        </div>
+        <div class="form-control">
+          <label>Email:</label>
+          <input type="Email" name="" id="email" placeholder="Wprowadź email..."
+          autocomplete="off">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg</small>
+        </div>
+        <div class="form-control">
+          <label>Hasło:</label>
+          <input type="password" name="" id="password" placeholder="Wprowadź hasło...">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg</small>
+        </div>
+        <div class="form-control">
+          <label>Potwierdź hasło:</label>
+          <input type="password" name="" id="cpassword" placeholder="Potwierdź hasło...">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg</small>
+        </div>
+        <input type="submit" value="Rejestruj" class="btn" name="">
+      </form>
+  
+    </div>
+      
+
+  
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/slick.min.js"></script>
+</body>
+</html>
