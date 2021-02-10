@@ -58,7 +58,7 @@ body{
     
 }
 
-h2::before{
+/* h2::before{
     content: '';
     position: absolute;
     left: 50%;
@@ -68,7 +68,7 @@ h2::before{
     width: 250px;
     border-radius: 2px;
     background-color: greenyellow;
-}
+} */
 
 .form{
     padding: 0 30px ;
