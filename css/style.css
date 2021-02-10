@@ -203,17 +203,7 @@ body{
         font-size: 19px;
     }
 
-    h2::before{
-        content: '';
-        position: absolute;
-        left: 52%;
-        bottom: 73%;
-        transform: translateX(-50%);
-        height: 4px;
-        width: 150px;
-        border-radius: 2px;
-        background-color: greenyellow;
-    }
+
 
     .form-control label{
         font-size: 12px;
