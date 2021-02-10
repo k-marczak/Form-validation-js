@@ -184,17 +184,7 @@ body{
         width: 200px;
     }
 
-    h2::before{
-        content: '';
-        position: absolute;
-        left: 52%;
-        bottom: 69%;
-        transform: translateX(-50%);
-        height: 4px;
-        width: 150px;
-        border-radius: 2px;
-        background-color: greenyellow;
-    }
+    
 }
 
 @media only screen and (max-width: 600px){
